@@ -6,5 +6,8 @@ difference = num1 - num2
 print("The difference is:", difference)
 product = num1  * num2
 print("The product is:", product)
-division = num1 / num2
-print("The division is:", division)
+if num2 != 0:
+ division = num1 / num2
+ print("The division is:", division)
+else:
+ print("Cannot divide by zero")
